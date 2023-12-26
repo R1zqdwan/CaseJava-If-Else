@@ -16,19 +16,19 @@ public class Rizqdwan_PercabanganPerulangan {
             System.out.print("Password: ");
             password = tools.nextLine();
 
-            
-            if (email.equals("nawdqzir@gmail.com") && password.equals("nawdqzir1")) {
-                
+    
+            if (email.equals("user@gmail.com") && password.equals("user1")) {
+        
                 System.out.println("\n-----Welcome To Discord-----");
             Login = true;
             } 
-            else if (!email.equals("nawdqzir@gmail.com") && !password.equals("nawdqzir1")){
+            else if (!email.equals("user@gmail.com") && !password.equals("user1")){
                 System.out.println("\n-----Your Email and Password Is Wrong-----");
             }
-            else if(!email.equals("nawdqzir@gmail.com")){
+            else if(!email.equals("user@gmail.com")){
                 System.out.println("\n-----Your Email is wrong-----");
-                
-            }else if (!password.equals("nawdqzir1")){
+        
+            }else if (!password.equals("user1")){
                 System.out.println("\n-----Your Password is wrong-----");
             }
         }
